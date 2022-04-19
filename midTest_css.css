@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@450);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR:wght@300&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+}
+
+#Sname,
+#descr,
+#Option,
+#Option li {
+    /*   text-align: center;*/
+    display: inline;
+    font-family: 'Crimson Pro', serif;
+}
+
+.top,
+.me,
+.serv,
+.list {
+    text-decoration: none;
+    color: black;
+}
+
+
+#Option li {
+    font-size: 1.3rem;
+    margin: 20px;
+    padding: 2px;
+}
+
+.home {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+/*여기까지가 헤더부분 꾸미기*/
+
+.Info {
+    padding-bottom: 300px;
+    padding-top: 150px;
+}
+
+#dialog h2 {
+    position: absolute;
+    right: 35rem;
+    top: 200px;
+    font-size: 2rem;
+    border-bottom: solid 3px black;
+}
+
+#depression {
+    padding-right: 30px;
+}
+
+#Client {
+    display: inline-block;
+    top: 200px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 150%;
+    padding: 30px;
+    margin-top: 0;
+}
+
+p {
+    line-height: 100%;
+    font-size: 15px;
+}
+
+/*여기까지가 Info*/
+
+#method {
+    text-align: center;
+    padding: 100px;
+}
+
+#method ol {
+    line-height: 200%;
+    display: block;
+    position: absolute;
+    width: 700px;
+    text-align: left;
+    left: 400px;
+}
+
+#method ol li {
+    font-size: 12px;
+}
+
+#Service {
+    padding: 300px;
+
+}
+
+#Service h2 {
+    position: absolute;
+    top: 65rem;
+    font-size: 2rem;
+    border-bottom: solid 3px black;
+}
+
+
+/*method*/
+
+#founder {
+    padding: 300px;
+    text-align: left;
+    margin: 200px;
+}
+
+#creator{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+
+#creator:hover{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    transform: translate(3,0);
+}
